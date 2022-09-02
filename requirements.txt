@@ -9,4 +9,4 @@ streamlit == 1.12.2
 textblob == 0.17.1
 wordcloud == 1.8.2.2
 twint
-# --user --upgrade git+https://github.com/twintproject/twint.git@origin/master#egg=twint
+git+https://github.com/twintproject/twint.git@origin/master#egg=twint
