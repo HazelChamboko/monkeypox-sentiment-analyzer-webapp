@@ -54,7 +54,7 @@ def main():
     tab1, tab2, tab3 = st.tabs(["Text Prediction ", "URL Prediction", "About Project"])
     with tab1:
         st.subheader("Enter single/multiple tweets separated by semicolon; ")
-        tweets = st.text_area("Samples below:", value="I hate the new movie;I love that dish;She is absolutely gorgeous;I read the book you talked about,its so good", height=300, max_chars=None, key=None)
+        tweets = st.text_area("Samples below:", value="Monkeypox vaccine supply now sufficient;Monkeypox ramping up during mosquito bite season is really just nature is truly gonna fuck with us while it gets us on up outta here;I read the book you talked about,its so bad", height=300, max_chars=None, key=None)
         cols = ["tweet"]
      
         if (st.button('Predict Sentiment')):   
